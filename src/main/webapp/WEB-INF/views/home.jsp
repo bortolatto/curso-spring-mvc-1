@@ -17,7 +17,6 @@
 	        <td>TDD na Prática - JAVA</td>
 	        <td>Google Android</td>
 	     </tr>
-
 	</table>
 </body>
 </html>
