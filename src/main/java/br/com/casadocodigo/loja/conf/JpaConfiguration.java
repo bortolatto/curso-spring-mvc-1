@@ -31,7 +31,7 @@ public class JpaConfiguration {
 		Properties props = new Properties();
 		props.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
 		props.setProperty("hibernate.show_sql", "true");
-		props.setProperty("hibernate.hbm2ddl.auto", "create");
+		props.setProperty("hibernate.hbm2ddl.auto", "update");
 		
 		factoryBean.setJpaProperties(props);
 		factoryBean.setPackagesToScan("br.com.casadocodigo.loja.dominio.model");
